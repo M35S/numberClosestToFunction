@@ -16,6 +16,11 @@
 //                  will be compared and a suitable number will be chosen as the 
 //                  closest one to 0.
 
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
 void findNumClosestTo(int numArray[], int quantity)
 {
 	cout << "********** Find the number closest to 0 function **********"
